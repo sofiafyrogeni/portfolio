@@ -1,0 +1,58 @@
+Raw data about sales in Sheet Orders
+Columns
+
+Row ID			
+Order ID 		
+Order Date		
+Order Priority	
+Order Quantity	
+Sales			
+Discount		
+Ship Mode		
+Profit
+Unit Price
+Shipping Cost
+Customer Name
+Province	
+Region	
+Customer Segment
+Product Category	
+Product Sub-Category	
+Product Name	
+Product Container	
+Product Base Margin	
+Ship Date
+
+Objective 1
+- Calculate the total sales and overall profit based on the order priority and the shipping method, add a slicer to make it easier to filter your data based on 
+geographic region and product packaging and display the sales and profitability ratio in relation to the total sales.
+
+
+Calculate the total sales and overall profit based on the order priority (field “Order Priority”) and the shipping method (“Ship Mode”), 
+by placing the “Order Priority” field in the row labels and the “Ship Mode” field in the columns of a pivot table.
+
+Objective 2 
+- Examine the relationship between shipping cost and sales.
+
+Create a pivot table in which i place the geographic region (field “Province”) in the rows and the shipping method (“Ship Mode”) in the columns. 
+In the pivot table, i created a new calculated field that will calculate the ratio of shipping cost to total sales.
+
+Objective 3
+- Find the sum of sales, shippping cost and profit for each segment and customer. Filter customers by the first letter of their names.
+
+I add a new column in orders sheet where i use the left function to extract the first letter of the name of customers.
+I add a pivot table where i place Customer Segment and Customer Name in rows and sum of sales, shippping cost and profit in columns,
+I add a slicer to the page using the new column with the first letter of the name of customers.
+
+Sheet Pivots for visualization
+
+I used some pivots to create charts to use for my dashboard:
+
+Profit by Order Priority
+Sales by Ship Mode
+Shipping cost by Sales by Region
+Sales and profit by Customer Segment
+Profit by year and month
+ For this pivot i added two columns in Orders, one for year and one for month of order date using year and month functions
+Sales by Month
+From this month we conclude that the month with the most sales is December and the least sales is June.

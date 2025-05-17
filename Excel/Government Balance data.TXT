@@ -1,0 +1,29 @@
+Data
+
+Sheet Government Balance data
+Raw data about the balance for different countries and years.
+Sheet GDP data
+Raw data about GDP (gross domestic product) for different countries and years.
+Sheet validate
+List of years, country and eurostat country names
+
+Objectives
+
+- Find the percentage of balance to GDP for chosen year and country (Sheet Country & YR)
+
+Using data validation to be able to choose year, available years in sheet Validate (Cell B1)
+Using data validation to be able to choose country, available countries in sheet Validate (Cell B3)
+Using vlookup function to find eurostat name of country from chosen country (Cell B5)
+Using match and vlookup functions to find GDP for chosen year and country (Cell B7)
+Using match and hlookup functions to find government balance for chosen year and country (Cell B10)
+Calculate percentage of balance to GDP for chosen year and country (B11)
+
+- Calculate the average of the surplus/deficit to GDP ratio, for a number of years specified by the user, starting after a year specified by a user (Sheet Country)
+
+Using data validation to be able to choose year, available years in sheet Validate (Cell B1)
+Using vlookup function to find eurostat name of country from chosen country (Cell B3)
+Using index and match functions to retrieve information about GDP and government balance for chosen country for each year (B7-J7 & B11-J11)
+Calculate percentage of balance to GDP ratio for each year (B13-J13)
+Choose the starting year (Cell B16)
+Choose number of years (Cell B18)
+Calculate ratio using average and offset functions (Cell B20)
