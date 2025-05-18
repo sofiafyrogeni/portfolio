@@ -1,0 +1,52 @@
+Data
+
+Full Name
+Gender
+State
+Years of Experience
+Monthly Salary
+
+Objective 1
+- How many are the candidate employees?
+
+Calculated by using counta function (Cell G4)
+
+Objective 2
+- How many are male and female candidates?
+
+Calculated by using countif function (Cell I4 - I7)
+
+Objective 3
+- Which is the average salary?
+
+Calculated by using average function (Cell G10)
+
+Objective 4
+- Which is the average salary for specified gender?
+
+Cell J9: Data validation for Male/Female
+Cell I10: Calculated by using average if, the criteria of averageif is the choice in cell J9
+
+Objective 5
+- Which is the average salary for Ohio?
+
+Calculated by using average if, the criteria of averageif is Ohio in state column
+
+Objective 6
+- Which is the average number of years of experience by gender and region
+
+Cell J12: Data validation for state
+Cell J14: Data validation for Male/Female
+
+Calculated by using average ifs and criteria the above cells
+
+- Objective 7
+
+Create pivot table
+- Average years of experience by gender (PivotTable1)
+- Average monthly salary by Gender  (PivotTable2)
+- Average monthly salary by State (PivotTable3)
+
+- Objective 8
+
+Create graphs out of the pivot tables and create a dashboard
