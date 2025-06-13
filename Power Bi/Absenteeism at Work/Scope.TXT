@@ -1,0 +1,6 @@
+Build a Database | Develop SQL Query | Perform Analysis | Connect Database to Power BI | Build a Dashboard
+
+Request
+- Provide a list of healthy individuals $ low abseeintism for healthy bonus program - Total Budget 1000 USD
+- Calculate a wage increase or annual compensation for non smokers (983,221 USD for all non smokers)
+- Create a dashboard for HR to understand abseeintism at work based on approved wireframe
