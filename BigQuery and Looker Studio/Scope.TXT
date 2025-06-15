@@ -1,0 +1,24 @@
+We are having issues with keeping employees, so we would like a data analyst to help proactively find employees that are at risk.
+Approach: 
+Select a pilot program with new employees. 
+Build an Auto ML model trained on previous data that can predict new employees will leave.
+
+Analysis Questions
+1. What is causing employees to leave?
+2. Who is predicted to leave?
+3. Are employees satisfied?
+4. What department have the most churn?
+
+Project questions
+1. What does success look like?
+2. What does failure look like?
+3. What trends are important?
+4. What actions affect the trend?
+
+Machine Learning Workflow
+1. Train
+	Train Machine Learning Model on 70% of our existing 15000 employees
+2. Test
+	Test and tune the ML Model for accuracy on the remaining 30%
+3. Predict
+	Use the optimized ML Model to predict which employees in our pilot will churn
