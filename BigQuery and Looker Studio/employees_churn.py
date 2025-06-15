@@ -80,5 +80,3 @@ feature_table.to_gbq('employeedata.feature_table',
                      project_id,
                      chunksize=None,
                      if_exists='replace')
-
-zip()
