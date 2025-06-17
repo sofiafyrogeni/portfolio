@@ -1,0 +1,7 @@
+Develop a dashboard for "Toman Bike Share" that display our key performance metrics for informed decision-making.
+
+Requirements:
+1. Hourly Revenue Analysis
+2. Profit and Revenue Trend
+3. Seasonal Revenue
+4. Rider Demographics
